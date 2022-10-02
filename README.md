@@ -1,4 +1,4 @@
-<h1 align="center">Proyecto Mountain Hike Cordoba :national_park:   </h1>
+<h1 align="center">Proyecto Mountain Hike Córdoba :national_park:   </h1>
 
 
 ## Descripción
