@@ -1,0 +1,11 @@
+*{
+    font-family: gadugi;
+}
+body{
+    background-color: #2d2e2f;
+    color: white;
+}
+@font-face{
+    font-family: gadugi;
+    src: url(gadugi-normal.ttf);
+}
