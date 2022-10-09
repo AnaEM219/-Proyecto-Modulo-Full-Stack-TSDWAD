@@ -9,3 +9,41 @@ body{
     font-family: gadugi;
     src: url(gadugi-normal.ttf);
 }
+/* <--Section cards-trayectos--> */
+.reseña{
+    margin: 20px 420px 40px 200px;
+    text-align: justify;
+}
+.title_hikeTheMountain{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.row{
+    margin-left: 180px;
+}
+.card{
+    text-align: center;
+    margin: 0px 20px 20px 30px;
+    background-color: transparent;
+    
+}
+.card-img-top{
+    height: 400px;
+    width: 380px;
+    margin:5px 0px 5px 0px;
+    
+}
+.card-img-top:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #98ca3e;
+    -webkit-box-shadow: 0px 0px 15px 15px #98ca3e;
+    -webkit-transition: width 1s ease-in-out 0s,
+                        height 1s ease-in-out 1s;
+    }
+.btn{
+    background-color: #9ba08b ;
+    color: aliceblue;
+}
+
+/* <--Section cards-trayectos--> */
