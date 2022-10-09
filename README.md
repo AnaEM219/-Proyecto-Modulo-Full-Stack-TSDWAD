@@ -5,7 +5,7 @@
 
 El proyecto es realizar un sitio web para promocionar el turismo ofreciendo salidas guiadas para  senderismo y trekking en la ciudad de Córdoba, accseso a dashboard de usuarios y expansión a un E-commerce
 
-## Tecnologias a usar para el frontend :computer:
+## Tecnologías a usar para el frontend :computer:
 
 * html
 * css
@@ -33,7 +33,7 @@ FADDA, Tatiana
 
 FALZOI, Claudia Carolina
 
-FALZOI, Ezequiel
+FALZOI, Ezequiel Alberto
 
 FRANCO, Edgar Dario
 
