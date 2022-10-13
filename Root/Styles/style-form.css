@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gadugi;
+  }
+  @font-face{
+    font-family: gadugi;
+    src: url(gadugi-normal.ttf);
+  }
+  body{
+    background-color:#2d2e2f;
+    color: white ;
+  }
+
+  .col-bg--custom{
+    background-image: url(../Assets/img/imagen05.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .custom-input{
+    background: inherit;
+
+  }
+
+  .btn-custom{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+  }
