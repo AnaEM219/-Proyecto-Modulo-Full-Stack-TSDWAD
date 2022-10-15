@@ -10,10 +10,7 @@ body{
     src: url(gadugi-normal.ttf);
 }
 
-img.d-block w-100 {
-    padding: 5px;
-    color: black;
-
-};
-p {color: red
-};
+.reseña { 
+    padding: 3 px;
+    border-color:black;
+}
