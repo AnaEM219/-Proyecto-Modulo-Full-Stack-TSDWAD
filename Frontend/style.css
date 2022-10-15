@@ -1,4 +1,4 @@
-*{
+c*{
     font-family: gadugi;
 }
 body{
@@ -9,3 +9,11 @@ body{
     font-family: gadugi;
     src: url(gadugi-normal.ttf);
 }
+
+img.d-block w-100 {
+    padding: 5px;
+    color: black;
+
+};
+p {color: red
+};
