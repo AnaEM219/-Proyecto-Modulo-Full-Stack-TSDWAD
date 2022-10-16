@@ -10,7 +10,25 @@ body{
     src: url(gadugi-normal.ttf);
 }
 
-.reseña { 
-    padding: 3 px;
-    border-color:black;
+img { width: 50%;
+    background: rgb(55, 142, 31);
+    border-radius: 100%;
+    border:#050505, solid,2px;
+
+    
+}
+p{
+    color: rgb(1, 1, 2);
+    font-family: gadugi;
+    font-size: 100px;
+}
+h5{
+    color: rgb(24, 118, 35);
+    font-family: gadugi;
+    font-size: 150px;
+}
+
+.resena{background-color: white;
+    
+
 }
