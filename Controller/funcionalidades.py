@@ -1,0 +1,5 @@
+## Index()
+# Registrar usuario()
+# Ingresar reseñas()
+# Cargar imagenes()
+# Cargar recorridos()
