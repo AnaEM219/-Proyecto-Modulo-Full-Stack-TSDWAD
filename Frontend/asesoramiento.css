@@ -1,0 +1,52 @@
+body{    
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Frontend/img_asesoramiento/fondo2.jpg), no-repeat;   
+    background-size: cover; 
+
+}
+h2{
+    margin-left: 50px;
+    padding: 10px;
+}
+.btn_01{
+    margin-left: 50px;
+}
+.gigantes01{
+    display: flex;
+    margin:  20px 50px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+.titulo{
+    margin-left: 50px;
+    font-size: 20px;
+    text-shadow: 2px 1px #98ca3e;
+}
+.texto{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.dif{
+    display: flex;
+    background-color: rgba(90, 90,90, 0.6);
+}
+.dificultad{
+    color: #98ca3e;
+    margin: 20px 20px 20px 50px;
+    font-size: 20px;
+}
+.max{
+    height: 30px;
+    margin-top: 20px;
+}
+.etiqueta_clima{
+    margin-left: 100%;
+    margin-top: 20px;
+}
+
+
+
+
+
