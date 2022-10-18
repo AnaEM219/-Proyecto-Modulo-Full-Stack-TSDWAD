@@ -23,7 +23,7 @@ body{
 
 /* imagen de fondo */
 .col-bg--custom{
-  background:linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4)), url(Root/Assets/img/imagen04.jpg);
+  background:linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4)), url(/Root/Assets/img/imagen04.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   background-position:unset;
