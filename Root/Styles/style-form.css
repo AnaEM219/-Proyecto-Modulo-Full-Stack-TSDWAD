@@ -23,7 +23,7 @@
     background: inherit;
 
   }
-
+ 
   .btn-custom{
     background-color: aliceblue;
     color: black;
@@ -40,3 +40,13 @@
 		color:#fff;
 		font-weight:900;
 	}
+
+  .modal-content{
+    background-color: #2d2e2f;
+    color:#fff
+  }
+
+  .btn-secondary{
+    background-color: #2d2e2f;
+  }
+  
