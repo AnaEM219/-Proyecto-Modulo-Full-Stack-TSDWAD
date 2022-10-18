@@ -42,8 +42,8 @@ body{
     -webkit-border-radius:50%;
     box-shadow: 0rem 0rem 0.9375rem 0.9375rem #98ca3e;
     -webkit-box-shadow: 0rem 0rem 0.9375rem 0.9375rem #98ca3e;
-    -webkit-transition: width 1s ease-in-out 0s,
-                        height 1s ease-in-out 1s;
+    /* -webkit-transition: width 1s ease-in-out 0s,
+                        height 1s ease-in-out 1s; */
     }
 .btn{
     background-color: #9ba08b ;

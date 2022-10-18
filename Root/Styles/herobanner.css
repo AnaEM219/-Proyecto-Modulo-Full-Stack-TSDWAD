@@ -16,7 +16,7 @@ hero{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(imagenes/Inicio.jpg);
+    background-image: url(/Root/Assets/img/imagen01.jpg);
     }
 
 
