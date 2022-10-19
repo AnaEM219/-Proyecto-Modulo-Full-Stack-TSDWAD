@@ -1,0 +1,138 @@
+*{
+     font-family: gadugi;
+    }
+    body{
+     background-color: #2d2e2f;
+     color: aliceblue;
+    }
+    @font-face{
+     font-family: gadugi;
+     src: url(gadugi-normal.ttf);
+    }
+    
+    .titprincipal {
+     color: #98ca3e;
+     text-align: center;
+     font-size: 3rem;
+    }
+
+    #newsdate {
+     text-align: center;
+    }
+
+    .titnoticia1, .titnoticia2, .titnoticia3 {
+     font-size: 2.5rem;
+     margin-left: 2rem;
+    }
+
+    #imgcerrochampaqui2 {
+     float: left;
+     width: 30rem;
+     height: 25rem;
+     margin-left: 3rem;
+     margin-bottom: 2rem;
+    }
+
+    .subtitnoticia1 {
+     display: inline-block;
+     padding-left: 3.5rem;
+     width: 37rem;
+     height: 5rem;
+    }
+
+    .descripcion1 {
+     display: inline-block;
+     width: 37rem;
+     height: 15rem;
+     padding-left: 3.5rem;
+    }
+
+    .primeranoticia {
+     display: inline-block;
+     margin-bottom: 1rem;
+     height: auto;
+     /* width: 66rem; */
+     border: 3px solid #1C9359;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 70px;
+     border-bottom-left-radius: 30px;
+     background-color: #393939;
+    }
+
+    h4, h5 {
+     display: block;
+     margin-top: 2rem;
+    }
+    
+    #imglosterrones { 
+     float: right;
+     width: 28rem;
+     /* height: 22rem; */
+     margin-right: 4rem;
+     padding-top: 2rem;
+    }
+
+    .fechadenot {
+     padding-left: 2rem;
+    }
+
+    .segundanoticia {
+     display: inline-block;
+     /* width: 86rem; */
+     height: auto;
+     border: #1C9359 3px solid;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 70px;
+     border-bottom-left-radius: 30px;
+     margin-bottom: 2rem;
+     background-color: #393939;
+    }
+
+    #imggigantes {
+     float: left;
+     width: 28rem;
+     /* height: 25rem; */
+     margin-left: 3rem;
+     padding-top: 2rem;
+    }
+
+    .subtitnoticia2 {
+     display: inline-block;
+     width: 35rem;
+     padding-left: 4rem;
+    }
+
+    .descripcion2 {
+     display: inline-block;
+     padding-left: 4rem;
+     width: 36rem;
+     height: 17rem;
+    }
+
+    .terceranoticia {
+     height: auto;
+     /* width: 86rem; */
+     border: #1C9359 3px solid;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 70px;
+     border-bottom-left-radius: 30px;
+     background-color: #393939;
+     
+    }
+
+    .subtitnoticia3 {
+     display: inline-block;
+     width: 33rem;
+     padding-left: 3.5rem;
+    }
+
+    .descripcion3 {
+     display: inline-block;
+     padding-left: 3.5rem;
+     width: 33rem;
+     height: 20rem;
+    }
+    
