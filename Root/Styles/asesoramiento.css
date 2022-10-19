@@ -42,8 +42,12 @@ h2{
     margin-top: 20px;
 }
 .etiqueta_clima{
-    margin-left: 100%;
+    margin-left: 50%;
     margin-top: 20px;
+    
+}
+.link{
+    text-decoration: none;
 }
 
 
