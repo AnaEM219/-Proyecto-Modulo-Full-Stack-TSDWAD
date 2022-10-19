@@ -59,12 +59,12 @@ body{
  }
  .resena{
     display:block;
-    width:52%;
+    width:48%;
     padding-left:30%;
     margin-left: 7%;
  }
  section p { color: rgb(252, 252, 252);
-    font-size: 10px;
+    font-size: 15px;
     font-family: gadugi;
     
     text-align: center;
