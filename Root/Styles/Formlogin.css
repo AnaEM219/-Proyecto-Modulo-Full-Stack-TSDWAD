@@ -29,6 +29,12 @@ body{
   background-position:unset;
   
 }
+.col-bg--custom__Account{
+  background:linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4)), url(/Root/Assets/img/imagen0402.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center center;
+}
 
 
 
