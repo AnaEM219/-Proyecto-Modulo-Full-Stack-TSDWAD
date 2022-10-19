@@ -34,7 +34,7 @@
 }
 
 .navbar a:hover {
-  color: rgb(31, 255, 125);
+  color: #98ca3e;
 }
 
 @media (max-width: 700px) {
