@@ -1,0 +1,25 @@
+.collage1{
+   position: relative;
+   height: 280px;
+   width: 600px;
+   left : 100px;
+   top: 30px;
+}
+.collage3{
+   margin-left: 1280px;
+   position:relative;
+   height:280px;
+   width:500px;
+   top: 80px;
+}
+.collage2{
+   position:relative;
+   margin-left: 480px;
+   height: 400px;
+   width: 900px;
+   top: -400px;
+   
+}
+.collage{
+display: block;
+}
