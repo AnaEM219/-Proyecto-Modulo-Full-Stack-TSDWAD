@@ -35,14 +35,12 @@ FALZOI, Claudia Carolina
 
 FALZOI, Ezequiel Alberto
 
-FRANCO, Edgar Dario
-
 MORI, Ana Ester
 
 MORISSE RODRIGUEZ, Mariana Florencia
 
 NAVARRO, Melisa
 
- PAEZ, Kevin Agustín
+PAEZ, Kevin Agustín
 
 TRASMONTANA, Mariano Braulio
