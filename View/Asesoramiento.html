@@ -1,64 +1,106 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../Root/Styles/style.css">
-    <link rel="stylesheet" href="../Root/Styles/asesoramiento.css">
-    <link rel="stylesheet" href="../Root/Styles/nav.css">
 
-    <title>Asesoramiento</title>
-    
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../Root/Styles/style.css">
+  <link rel="stylesheet" href="../Root/Styles/asesoramiento.css">
+  <link rel="stylesheet" href="../Root/Styles/nav1.css">
+
+  <title>Asesoramiento</title>
+
 
 </head>
+
 <body>
-    <header class="header">
-        <a href="../index.html" class="logo">
-          <img src="../Root/Assets/img/logoMountainBlanco.png" alt="logo de la compañia" class="logo-img">
-        </a>
-        <nav class="navbar">
-          <a href="../index.html" class="nav-link">Home</a>
-          <a href="nosotros.html" class="nav-link">Nosotros</a>
-          <a href="Asesoramiento.html" class="nav-link">Mountain hike</a>
-          <a href="blog.html" class="nav-link">Blog</a>
-          <a href="/View/loginPage.html" class="nav-link">Iniciar sesión</a>
-    
-        </nav>
-      </header>
-        
-    <main>
-        <h2>Actividades</h2>
-        <button class=" btn btn_01">Todas</button>
-        <button class=" btn btn_02">Baja</button> 
-        <button class=" btn btn_03">Moderada</button>
-        <button class=" btn btn_04">Exigente</button>
 
-        <img  class="gigantes01" src="../Root/Assets/img/imagen02.jpg" alt="">
-        <p class="titulo">Los Gigantes</p>
-        <p class="texto">Sendero muy técnico y con zonas de mucho peligro.
-            Iniciamos el sendero en la calle S. Pedro En Tamaimo, conectamos con el sendero TF 65 a la izquierda bajando unos 200m nos desviamos a la derecha para subir al canal, lo seguimos hasta llegar al primer túnel, paso de los Sauces 1 de 1200m de longitud a la salida seguimos por el canal, donde nos encontramos con un paisaje impresionante, a la derecha parte alta tenemos el Risco Blanco y a la izquierda el Barranco Mancha los Diaz. Avanzamos unos dos kms por el canal hasta llegar al segundo túnel, paso Los Sauces 2, este se encuentra con puertas cerradas a ambos lados pero se puede acceder por un pequeño hueco, este tunel tiene una longitud de 1100m a la salida nos encontramos con el Barranco del Natero avanzamos unos 200m y descendemos al cauce del barranco seguimos unos 300m siguiendo unos majones, fijarse bien porque llegas a un sendero a la derecha que nos lleva paralelamente al cauce del barranco con unas vistas impresionantes,al llegar a la galería cogemos la ruta del canal con zonas de mucho peligro( no apto para personas con vértigo a las alturas) seguimos unos 4 km con unos paisajes maravillosos de la playa de Barranco Seco. Llegamos al último paso, Los Topos, a su salida tenemos una maravillosa vista de Los Gigantes, descendemos con mucho cuidado, terreno muy resbaladizo, llegamos a un cruce en el sendero, nosotros hemos entrado a la derecha para entrar a la zona del tubo (zona muy, muy peligrosa) volvemos por donde hemos venido hasta llegar al sendero de frente que nos llevará hasta Los Gigantes, Calle Tabaiba.</p>
-            <div class="dif">
-                <p class="dificultad">Dificultad</p>
-                <img class="max" src="../Root/Assets/img/img_asesoramiento/max.png" alt="">
-                <p class="etiqueta_clima">Consultá el clima &nbsp<a class="link btn btn-sm" target="_blank" href="https://www.accuweather.com/es/ar/los-gigantes/8784/weather-forecast/8784">Acá</a></p>
-            </div>
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="../Root/Assets/img/logoMountainBlanco.png" alt="logo de la compañia" class="logo-img" />
+    </a>
+    <input type="checkbox" id="check">
+    <label for="check" class="mostrar-menu">
+      &#8801
+    </label>
 
-        
-    </main>
-    <footer>
-        <!-- <--footer-->
-        <!-- //aca va tu contenido
-        <--/footer--> 
-    </footer>
+    <nav class="navbar">
+      <a href="/index.html" class="nav-menu-item nav-link">Home</a>
+      <a href="/View/nosotros.html" class="nav-menu-item nav-link">Nosotros</a>
+      <a href="/View/Asesoramiento.html" class="nav-menu-item nav-link">Mountain hike</a>
+      <a href="/View/blog.html" class="nav-menu-item nav-link">Blog</a>
+      <a href="/View/loginPage.html" class="nav-menu-item nav-link">Iniciar sesión</a>
+      <label for="check" class="esconder-menu">
+        &#215
+      </label>
+    </nav>
 
-    <script src="javaScript.js"></script>
 
-    <!-- <--boostrap--> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+
+  </header>
+
+  <!-- <header class="header">
+    <a href="../index.html" class="logo">
+      <img src="../Root/Assets/img/logoMountainBlanco.png" alt="logo de la compañia" class="logo-img">
+    </a>
+    <nav class="navbar">
+      <a href="../index.html" class="nav-link">Home</a>
+      <a href="nosotros.html" class="nav-link">Nosotros</a>
+      <a href="Asesoramiento.html" class="nav-link">Mountain hike</a>
+      <a href="blog.html" class="nav-link">Blog</a>
+      <a href="/View/loginPage.html" class="nav-link">Iniciar sesión</a>
+
+    </nav>
+  </header> -->
+
+  <main>
+    <h2>Actividades</h2>
+    <button class=" btn btn_01">Todas</button>
+    <button class=" btn btn_02">Baja</button>
+    <button class=" btn btn_03">Moderada</button>
+    <button class=" btn btn_04">Exigente</button>
+
+    <img class="gigantes01" src="../Root/Assets/img/imagen02.jpg" alt="">
+    <p class="titulo">Los Gigantes</p>
+    <p class="texto">Sendero muy técnico y con zonas de mucho peligro.
+      Iniciamos el sendero en la calle S. Pedro En Tamaimo, conectamos con el sendero TF 65 a la izquierda bajando unos
+      200m nos desviamos a la derecha para subir al canal, lo seguimos hasta llegar al primer túnel, paso de los Sauces
+      1 de 1200m de longitud a la salida seguimos por el canal, donde nos encontramos con un paisaje impresionante, a la
+      derecha parte alta tenemos el Risco Blanco y a la izquierda el Barranco Mancha los Diaz. Avanzamos unos dos kms
+      por el canal hasta llegar al segundo túnel, paso Los Sauces 2, este se encuentra con puertas cerradas a ambos
+      lados pero se puede acceder por un pequeño hueco, este tunel tiene una longitud de 1100m a la salida nos
+      encontramos con el Barranco del Natero avanzamos unos 200m y descendemos al cauce del barranco seguimos unos 300m
+      siguiendo unos majones, fijarse bien porque llegas a un sendero a la derecha que nos lleva paralelamente al cauce
+      del barranco con unas vistas impresionantes,al llegar a la galería cogemos la ruta del canal con zonas de mucho
+      peligro( no apto para personas con vértigo a las alturas) seguimos unos 4 km con unos paisajes maravillosos de la
+      playa de Barranco Seco. Llegamos al último paso, Los Topos, a su salida tenemos una maravillosa vista de Los
+      Gigantes, descendemos con mucho cuidado, terreno muy resbaladizo, llegamos a un cruce en el sendero, nosotros
+      hemos entrado a la derecha para entrar a la zona del tubo (zona muy, muy peligrosa) volvemos por donde hemos
+      venido hasta llegar al sendero de frente que nos llevará hasta Los Gigantes, Calle Tabaiba.</p>
+    <div class="dif">
+      <p class="dificultad">Dificultad</p>
+      <img class="max" src="../Root/Assets/img/img_asesoramiento/max.png" alt="">
+      <p class="etiqueta_clima">Consultá el clima &nbsp<a class="link btn btn-sm" target="_blank"
+          href="https://www.accuweather.com/es/ar/los-gigantes/8784/weather-forecast/8784">Acá</a></p>
+    </div>
+
+
+  </main>
+  <footer>
+    <!-- <--footer-->
+    <!-- //aca va tu contenido
+        <--/footer-->
+  </footer>
+
+  <script src="javaScript.js"></script>
+
+  <!-- <--boostrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
 </body>
+
 </html>
