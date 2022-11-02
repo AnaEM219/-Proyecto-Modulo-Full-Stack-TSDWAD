@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/Root/Assets/img/imagen01.jpg);
+    background-image: url(../Assets/img/imagen01.jpg);
     }
 
 .ventana {
