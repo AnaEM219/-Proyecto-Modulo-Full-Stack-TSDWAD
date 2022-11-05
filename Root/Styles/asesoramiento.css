@@ -29,7 +29,7 @@ h2{
     margin-right: 50px;
 }
 .dif{
-    display: flex;
+    display: flexbox;
     background-color: rgba(90, 90,90, 0.6);
 }
 .dificultad{
