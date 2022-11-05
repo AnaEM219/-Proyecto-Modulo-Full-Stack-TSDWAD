@@ -38,8 +38,9 @@ h2{
     font-size: 20px;
 }
 .max{
-    height: 30px;
-    margin-top: 20px;
+    height:100px;
+    margin-top: 40px;
+    margin-left: 150px;
 }
 .etiqueta_clima{
     margin-left: 50%;
@@ -50,7 +51,19 @@ h2{
     text-decoration: none;
 }
 
+h4{
+    margin-left: 50px;
+    font-size: 20px;
+    text-shadow: 2px 1px #98ca3e;
+    
+ }
+.recorrido{
+    display: flex;
+    margin:  20px 50px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
 
-
+}
 
 
