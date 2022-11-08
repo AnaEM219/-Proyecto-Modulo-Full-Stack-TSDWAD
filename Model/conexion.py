@@ -1,12 +1,18 @@
-import mysql.connector
+import pymysql
+print("resultado exitoso")
 
-class Conectar():
-    def __init__(self)-> None:
-        try:
-            self.conexion= mysql.connector.connect(
-                host= 'localhost',
-                user='root',
-                password='fsfal4ever',
-                db='mountainhikedef'
-                )
-        except my
+mybbdd= pymysql.connect(
+    host='localhost',
+    user='root',
+    passwd= "fsfal4ever",
+    db="mountainhikedef"
+)
+mycursor= mybbdd.cursor()
+mycursor.execute("SELECT fecha, titulo FROM blog")
+for fecha, titulo in mycursor.fetchall():
+    print (fecha, titulo)
+mybbdd.close()
+
+
+
+
