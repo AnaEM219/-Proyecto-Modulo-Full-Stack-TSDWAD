@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
-  <link rel="stylesheet" href="Root/Styles/style.css" />
+  <link rel="stylesheet" href="Root/Styles/style.css"/>
   <link rel="stylesheet" href="Root/Styles/nav1.css" />
+  <link rel="stylesheet" href="Root/Styles/foot.css" />
   <link rel="stylesheet" href="Root/Styles/style-form.css" />
   <link rel="stylesheet" href="Root/Styles/herobanner.css" />
   <link rel="stylesheet" href="Root/Styles/Formlogin.css" />
-  <link rel="stylesheet" href="Root/Styles/foot.css" />
-  <link rel="stylesheet" href="Root/Styles/collage.css">
+
 
   <title>Mountain Hike Córdoba</title>
   <!-- <link rel="stylesheet" href="./Root/Styles/style carrusel.css"> -->
@@ -44,7 +44,29 @@
   </header>
   <main>
     <!--section hero-->
-    <section class="herobanner">
+
+    <section class="hero container-fluid">
+        <div class="overlay">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6 ">
+                <h2>
+                  MOUNTAIN HIKE CORDOBA <br> <span class="title-hero">explora con confianza</span>
+                </h2>
+                <P class="d-none d-md-block">
+                  Saca al aventurero que hay en ti
+                  Tanto si quieres dar un paseo tranquilo como si quieres ir de excursión a la montaña, tenemos todo lo que necesitas.
+                </P>
+                <p>
+                  encuentra tu proxima ruta!!!
+                </p>
+                <a class="btn btn-primary " href="#" role="button">Registrate</a>
+              </div>
+            </div>
+          </div>
+    </section>
+
+  <!--   <section id="herobanner">
       <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-pause="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -72,7 +94,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
 
     <!--Section cards-trayectos-->
@@ -308,7 +330,6 @@
 
         <div class=" col-xl-6  col col-md-7 col-sm-12 p-4 rounded-end mb-5">
           <h4 class="text-center py-5">No te pierdas las próximas salidas</h4>
-
           <form class="needs-validation"novalidate>
             <div class="mb-3">
               <label for="exampleInputNombre" class="form-label">Nombre</label>

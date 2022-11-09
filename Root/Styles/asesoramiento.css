@@ -8,7 +8,10 @@ h2{
     padding: 10px;
 }
 .btn_01{
-    margin-left: 50px;
+    background-color: #9ba08b;
+    color: aliceblue;
+    font-size: 18px;
+    font-style: strong;
 }
 .gigantes01{
     display: flex;
@@ -65,5 +68,4 @@ h4{
     border-radius: 15px;
 
 }
-
 
