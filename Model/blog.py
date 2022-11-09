@@ -1,25 +1,19 @@
 import pymysql
-print("resultado exitoso")
 
-class Blog():
+
+connection= pymysql.connect(
+    host='localhost',
+    user='root',
+    passwd= 'fsfal4ever',
+    db='mountainhikedef', 
+    charset='utf8mb4',
+    cursorclass=pymysql.cursors.DictCursor
+)
+try:
+    with connection.cursor() as cursor:
+        sql = "UPDATE blog SET fecha= '1 de enero' WHERE id_blog = 1;"
+        cursor.execute(sql)
+        connection.commit()
     
-    def __init__(self)-> None:
-        try:
-            self.mybbdd= pymysql.connect(
-                host='localhost',
-                user='root',
-                passwd= "fsfal4ever",
-                db="mountainhikedef"
-                )
-        except pymysql.Error as descriptionerror:
-            print("No se conectó", descriptionerror)
-    def InsertarValor(self):
-        if self.mybbdd.conn.ping(True):
-            try:
-                mycursor= self.mybbdd.cursor()                 
-                mycursor.execute("SELECT fecha, titulo FROM blog")
-                for fecha, titulo in mycursor.fetchall():
-                    print (fecha, titulo)
-                self.mybbdd.close()
-            except ConnectionError:
-                print("No se pudo jsdfklj")
+finally:
+    connection.close()
