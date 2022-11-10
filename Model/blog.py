@@ -30,16 +30,16 @@ finally:
 # #UPDATE
 try:
     with connection.cursor() as cursor:
-        sql="UPDATE blog SET fecha=%s, titulo=%s, cuerpo=%s WHERE id_blog=22;"
-        cursor.execute(sql, ('11 de Noviembre', 'november rain', 'El servicio meteorológico anuncia una gran tormente para mediados de este mes'))
+        sql="UPDATE blog SET fecha=%s, titulo=%s, cuerpo=%s WHERE id_blog=%s;"
+        cursor.execute(sql, ('11 de Noviembre', 'November rain', 'El servicio meteorológico anuncia una gran tormente para mediados de este mes',22))
         connection.commit()
 finally:
     connection.close()
 #DELETE
 try:
     with connection.cursor() as cursor:
-        sql= "DELETE FROM blog WHERE id_blog=14;"
-        cursor.execute(sql)
+        sql= "DELETE FROM blog WHERE id_blog=%s;"
+        cursor.execute(sql, 14)
         connection.commit()
 finally:
     connection.close()
