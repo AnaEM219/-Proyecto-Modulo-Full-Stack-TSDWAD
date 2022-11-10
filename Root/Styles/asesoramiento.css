@@ -1,8 +1,10 @@
-body{    
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Assets/img/img_asesoramiento/fondo2.jpg), no-repeat;   
-    background-size: cover; 
+  
+body{
+        background-color: #2d2e2f;
+        color: aliceblue;
+ } 
    
-}
+
 h2{
     margin-left: 50px;
     padding: 10px;
