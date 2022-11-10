@@ -10,23 +10,6 @@ connection= pymysql.connect(
     cursorclass=pymysql.cursors.DictCursor
 )
 
-#UPDATE
-try:
-    with connection.cursor() as cursor:
-        sql = "UPDATE blog SET fecha= '1 de enero' WHERE id_blog = 1;"
-        cursor.execute(sql)
-        connection.commit()
-finally:
-    connection.close()
-#READ
-try:
-    with connection.cursor() as cursor:
-        sql = "SELECT fecha, titulo, cuerpo FROM blog WHERE id_blog = %s;"
-        cursor.execute(sql, ('2'))
-        result=cursor.fetchone()
-        print(result)
-finally:
-    connection.close()
 #CREATE
 try:
     with connection.cursor() as cursor:
@@ -35,11 +18,28 @@ try:
         connection.commit()
 finally:
     connection.close()
-#UPDATE
+# #READ
+try:
+    with connection.cursor() as cursor:
+        sql = "SELECT fecha, titulo, cuerpo FROM blog WHERE id_blog = %s;"
+        cursor.execute(sql, ('2'))
+        result=cursor.fetchone()
+        print(result)
+finally:
+    connection.close()
+# #UPDATE
 try:
     with connection.cursor() as cursor:
         sql="UPDATE blog SET fecha=%s, titulo=%s, cuerpo=%s WHERE id_blog=22;"
         cursor.execute(sql, ('11 de Noviembre', 'november rain', 'El servicio meteorológico anuncia una gran tormente para mediados de este mes'))
+        connection.commit()
+finally:
+    connection.close()
+#DELETE
+try:
+    with connection.cursor() as cursor:
+        sql= "DELETE FROM blog WHERE id_blog=14;"
+        cursor.execute(sql)
         connection.commit()
 finally:
     connection.close()
