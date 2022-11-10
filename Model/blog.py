@@ -17,6 +17,7 @@ try:
             sql="INSERT INTO blog (admin_id_admin, fecha, titulo, cuerpo) VALUES (%s,%s,%s, %s);"
             cursor.execute(sql, (1,'10 de Noviembre','Fuertes LLuvias se esperan para Diciembre', 'El servicio meteorológico prevee lluvias abundantes y poco comunes para esta época del año'))
             connection.commit()
+            print("Se insertarón correctamente tus datos")
     finally:
         connection.close()
 #READ
@@ -34,6 +35,7 @@ try:
             sql="UPDATE blog SET fecha=%s, titulo=%s, cuerpo=%s WHERE id_blog=%s;"
             cursor.execute(sql, ('11 de Noviembre', 'November rain', 'El servicio meteorológico anuncia una gran tormente para mediados de este mes',22))
             connection.commit()
+            print("Se modificaron correctamente tus datos")
     finally:
         connection.close()
 #DELETE
@@ -42,6 +44,7 @@ try:
             sql= "DELETE FROM blog WHERE id_blog=%s;"
             cursor.execute(sql, 14)
             connection.commit()
+            print("Se borraron correctamente tus datos")
     finally:
         connection.close()
         
