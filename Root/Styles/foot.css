@@ -211,3 +211,10 @@ footer{
 
     
 }
+
+@media only screen and (max-width: 380px){
+
+    .seguinos-elements a {
+        padding-left: 0;
+    }
+}
