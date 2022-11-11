@@ -42,6 +42,10 @@
  --bs-btn-border-color:none;
  --bs-btn-hover-bg:#97d11be1;
  --bs-btn-hover-border-color:none;
+ --bs-btn-active-border-color:none;
+ --bs-btn-active-bg: #99c834b4;
+ --bs-btn-disabled-border-color: #99c834b4;
+ 
 }
 
 
