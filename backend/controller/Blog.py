@@ -1,2 +1,6 @@
-import model.blog as Blog
+from model import Blog
+
+import sys
+
+
 
