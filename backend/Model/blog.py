@@ -15,7 +15,7 @@ class Blog():
         except (pymysql.err.OperationalError, pymysql.err.InternalError) as e:
             print("Ocurrió un error al conectar: ", e)
 #CREATE
-    def InsertarValorBlog(self):
+    def InsertarNoticiaBlog(self):
         try:
             with self.connection.cursor() as cursor:
                 sql="INSERT INTO blog (admin_id_admin, fecha, titulo, cuerpo) VALUES (%s,%s,%s, %s);"
@@ -29,7 +29,7 @@ class Blog():
         try:
             with self.connection.cursor() as cursor:
                 sql = "SELECT * FROM blog WHERE id_blog = %s;"
-                cursor.execute(sql, ('2'))
+                cursor.execute(sql, int(input('Ingresa el id de la noticia del blog que querés consultar: ')))
                 result=cursor.fetchall()
                 print(result)
         finally:
@@ -45,18 +45,21 @@ class Blog():
         finally:
             self.connection.close()
 #DELETE
-    def BorrarBlog(self):
+    def BorrarRegistroBlog(self):
         try:
             with self.connection.cursor() as cursor:
                 sql= "DELETE FROM blog WHERE id_blog=%s;"
-                cursor.execute(sql, 14)
+                cursor.execute(sql, int(input("ingresa el id del blog que deseas eliminar: ")))
                 self.connection.commit()
                 print("Se borraron correctamente tus datos")
         finally:
             self.connection.close()
             
 blog=Blog()
-blog.InsertarValorBlog()
+# blog.InsertarNoticiaBlog()
+blog.ConsultarBlog()
+#blog.ModificarBlog()
+#blog.BorrarRegistroBlog()
 
 
         
