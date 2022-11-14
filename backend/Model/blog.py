@@ -56,10 +56,10 @@ class Blog():
             self.connection.close()
             
 blog=Blog()
-# blog.InsertarNoticiaBlog()
+blog.InsertarNoticiaBlog()
 blog.ConsultarBlog()
-#blog.ModificarBlog()
-#blog.BorrarRegistroBlog()
+blog.ModificarBlog()
+blog.BorrarRegistroBlog()
 
 
         
